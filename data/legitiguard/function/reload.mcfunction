@@ -4,6 +4,7 @@
     #> Objectives
     scoreboard objectives add lg.Values dummy
     scoreboard objectives add lg.CreativeTimer dummy
+scoreboard objectives add gamemode trigger
     #> Players
     scoreboard players set #4 lg.Values 4
     scoreboard players set #20 lg.Values 20

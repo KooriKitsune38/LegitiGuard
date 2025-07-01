@@ -15,3 +15,8 @@ kill @e[type=tnt_minecart]
 kill @e[type=end_crystal]
 kill @e[type=fireball]
 kill @e[type=area_effect_cloud]
+
+# Gamemode Toggle
+#tag @a[scores={lg.CreativeTimer=2..}] add creative
+#tag @a[scores={lg.CreativeTimer=..-2}] add creative
+function legitiguard:gamemode_toggle/toggle
