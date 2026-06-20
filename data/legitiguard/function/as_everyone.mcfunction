@@ -31,7 +31,7 @@ execute if entity @s[tag=fishing_immune,nbt=!{SelectedItem:{id:"minecraft:cod"}}
 execute if entity @s[tag=fishing_immune,nbt=!{SelectedItem:{id:"minecraft:wind_charge"}}] as @e[type=wind_charge,distance=..5] at @s run function legitiguard:fishing_rod/explode
 
 # Prevent players
-execute if entity @s[tag=player_immune,x=0.5,y=64,z=0.5,distance=6..] at @s if dimension minecraft:overworld run function legitiguard:player/immunity
+execute if entity @s[tag=player_immune_active,x=0.5,y=64,z=0.5,distance=6..] at @s if dimension minecraft:overworld run function legitiguard:player/immunity
 
 clear @s splash_potion
 clear @s goat_horn
