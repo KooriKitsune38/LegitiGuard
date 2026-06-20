@@ -4,6 +4,14 @@
     #> Objectives
     scoreboard objectives add lg.Values dummy
     scoreboard objectives add lg.CreativeTimer dummy
+
+    scoreboard objectives add elytra trigger
+    scoreboard objectives add gamemode trigger
+    scoreboard objectives add previousGamemode dummy
+
+    #players who are repulsed from everyone
+    scoreboard objectives add filtered dummy
+
     #> Players
     scoreboard players set #4 lg.Values 4
     scoreboard players set #20 lg.Values 20

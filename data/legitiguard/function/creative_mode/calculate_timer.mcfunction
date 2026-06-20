@@ -1,7 +1,5 @@
-#> legitiguard:creative_mode/calculate_timer
-
 # Retrieve Seconds
-scoreboard players operation #playerCreativeTimer lg.Values = @s lg.CreativeTimer
+execute unless score @s lg.CreativeTimer matches ..0 run scoreboard players operation #playerCreativeTimer lg.Values = @s lg.CreativeTimer
 execute store result score #creativeSeconds lg.Values run scoreboard players operation #playerCreativeTimer lg.Values /= #20 lg.Values
 scoreboard players operation #creativeSeconds lg.Values %= #60 lg.Values
 

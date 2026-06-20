@@ -1,0 +1,33 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:enchantments": []
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "offhand": {
+                        "items": "minecraft:crossbow",
+                        "predicates": {
+                            "minecraft:enchantments": []
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
