@@ -8,3 +8,4 @@ attribute @s minecraft:gravity base set .08
 attribute @s minecraft:movement_speed base set .1
 xp set @s 0 levels
 xp set @s 0 points
+tag @s remove ghost
